@@ -76,7 +76,9 @@ header .container {
 .header-nav-address {
   display: inline-flex;
   padding: 0;
-  margin: 24px 156px;
+  margin-top:24px;
+  margin-bottom:24px;
+  gap:570px;
 }
 .header-nav {
   display: inline-flex;
@@ -85,9 +87,6 @@ header .container {
   gap: 76px;
   padding-left: 0;
   padding-right: 0;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 156px;
   align-items: center;
   margin-right: 0;
 }
@@ -97,8 +96,6 @@ header .container {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
   margin-left: 0;
 }
 .header-address-contakt {
@@ -106,12 +103,10 @@ header .container {
   width: 346px;
   height: 24px;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
-  margin-bottom: 24px;
-  margin-top: 24px;
-  margin-left: 332px;
-  margin-right: 156px;
+  
+  /*margin-right: 156px;*/
 }
 .header-address-tree {
   width: auto;
