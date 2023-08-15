@@ -38,15 +38,7 @@ img {
 }
 
 /*---- HEADER ----*/
-header .container {
-  width: 1440px;
-  height: 72px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 1px;
-}
+
 
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -73,11 +65,22 @@ header .container {
 .header-link:focus {
   color: #404bbf;
 }
+header .container {
+  width: 1440px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 1px;
+}
 .header-nav-address {
   display: inline-flex;
   padding: 0;
   margin-top:24px;
   margin-bottom:24px;
+  margin-left:0;
+  margin-right:0;
   gap:332px;
 }
 .header-nav {
@@ -103,10 +106,8 @@ header .container {
   width: 346px;
   height: 24px;
   display: inline-flex;
-  align-items: flex-start;
+  align-items: flex-end;
   padding: 0;
-  
-  /*margin-right: 156px;*/
 }
 .header-address-tree {
   width: auto;
