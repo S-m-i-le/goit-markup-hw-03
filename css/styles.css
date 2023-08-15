@@ -48,8 +48,8 @@ img {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 156px;
-  height: 24px;
+  width: 115px;
+  height: 21px;
   flex-shrink: 0;
 }
 .logo-studio-header {
@@ -66,7 +66,7 @@ img {
   color: #404bbf;
 }
 header .container {
-  width: 1440px;
+  width: 1158px;
   height: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -81,7 +81,7 @@ header .container {
   margin-bottom:24px;
   margin-left:0;
   margin-right:0;
-  gap:332px;
+  gap:290px;
 }
 .header-nav {
   display: inline-flex;
@@ -94,8 +94,8 @@ header .container {
   margin-right: 0;
 }
 .header-link-tree {
-  width: auto;
-  height: auto;
+  width: 261px;
+  height:24px;
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
@@ -103,10 +103,10 @@ header .container {
 }
 .header-address-contakt {
   font-style: normal;
-  width: 346px;
-  height: 24px;
+  width: 344px;
+  height:24px;
   display: inline-flex;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 0;
 }
 .header-address-tree {
