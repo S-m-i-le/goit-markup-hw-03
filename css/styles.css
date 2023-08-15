@@ -34,7 +34,7 @@ ol {
 }
 img {
   display: block;
-  list-style-type: none;
+  max-width:100%;
 }
 
 /*---- HEADER ----*/
