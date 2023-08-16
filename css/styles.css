@@ -98,8 +98,8 @@ img {
 }
 .header-nav-address {
   display:flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top:24px;
+  padding-bottom:24px;
   gap:332px;
 }
 .header-address-contakt {
