@@ -254,8 +254,11 @@ header .container {
   width: calc((100% - 72px) / 4);
   height:380px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+   0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
   padding-bottom: 0px;
-  flex-direction: column;
   padding-bottom: 32px;
 }
   .name-profession {
@@ -268,13 +271,11 @@ header .container {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  display:block;
   text-align: center;
 }
 .profession{
   color:#434455;
 letter-spacing: 0.32px;
- display:block;
  text-align:center;
 }
 
@@ -289,7 +290,6 @@ letter-spacing: 0.32px;
   margin-right: auto;
   margin-bottom:120px;
   margin-top:120px;
-  border: 1px solid #e7e9fc;
 }
 .tittle-team-portfolio {
   font-size: 36px;
@@ -299,6 +299,7 @@ letter-spacing: 0.32px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top:0;
   margin-bottom: 72px;
 }
 .cards{
@@ -310,11 +311,10 @@ letter-spacing: 0.32px;
 .portfolio-card {
   background-color: #ffffff;
   width:calc((100% - 48px)/3);
-  height: 420px;
-  border: 1px solid #E7E9FC; 
+  height:420px;
+  border:1px solid #E7E9FC; 
 }
 .card-product {
-  display:block;
  padding:32px 16px 32px 16px;
 }
 .name-product {
