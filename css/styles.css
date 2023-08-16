@@ -112,10 +112,14 @@ img {
 .header-address-contakt {
   display:flex;
   align-items:center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-address-tree {
   display:flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
  .header-address{
   display: block;
