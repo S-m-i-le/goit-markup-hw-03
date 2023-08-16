@@ -52,11 +52,14 @@ img {
   margin-left: 0;
   margin-right: 0;
   gap: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav{
   display: flex;
   align-items: center;
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
  
 }
 .header-logo {
