@@ -49,8 +49,6 @@ img {
 }
 .header-nav-address{
   display:flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-left: 0;
   margin-right: 0;
   gap: 332px;
@@ -58,6 +56,7 @@ img {
 .header-nav{
   display: flex;
   align-items: center;
+  
  
 }
 .header-logo {
@@ -78,6 +77,8 @@ img {
 }
 .links{
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   
 }
 .header-link {
@@ -111,6 +112,8 @@ img {
 }
  .header-address{
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
  }
 .header-contakt {
   
