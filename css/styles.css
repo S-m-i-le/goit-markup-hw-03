@@ -137,6 +137,7 @@ header .container {
 }
 
 /*-- 1 HERO ---*/
+
 .section-hero {
   background-color: #2e2f42;
 }
@@ -145,7 +146,9 @@ header .container {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  align-items: center;
 }
 
 .hero-tittle {
@@ -153,13 +156,14 @@ header .container {
   font-size: 56px;
   line-height: 1.07;
   font-weight: 700;
-  text-align: center;
+  
   letter-spacing: 1.12px;
-
-  padding-left: 472px;
-  padding-right: 472px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
   padding-bottom: 0;
-  /*max-width: 496px;*/
+  max-width: 496px;
 }
 .hero-button {
   color: #ffffff;
@@ -199,31 +203,31 @@ header .container {
   height: 104px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.section-feature-tree {
+.feature-tree {
   display: flex;
-  
   gap: 24px;
 }
+.feature-cards{
+  display: block;
+  width: calc((100% - 72px) / 4);
+}
 .tittls-feature {
+ 
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: left;
 }
 .features-team {
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
-
   text-align: start;
 }
 
@@ -237,8 +241,6 @@ header .container {
   height: 672px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0px;
-  padding-right: 0px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -287,6 +289,7 @@ letter-spacing: 0.32px;
   margin-right: auto;
   margin-bottom: 120px;
   margin-top:120px;
+  border: 1px solid #e7e9fc;
 }
 .tittle-team-portfolio {
   font-size: 36px;
@@ -340,8 +343,6 @@ letter-spacing: 0.32px;
   height: 312px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
