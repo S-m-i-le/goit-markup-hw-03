@@ -52,15 +52,11 @@ img {
   margin-left: 0;
   margin-right: 0;
   gap: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .header-nav{
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
- 
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -74,64 +70,50 @@ img {
   height: 21px;
   flex-shrink: 0;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ 
 }
 .logo-studio-header {
   color: #2e2f42;
 }
+.header-link-tree {
+  display: flex;
+  gap: 40px;}
+
 .links{
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
 }
 .header-link {
-  
+  display: block;
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
-.header-link-tree {
-  display: flex;
-  padding-top:24px;
-  padding-bottom:24px;
-  gap: 40px;
-}
-.header-nav-address {
-  display:flex;
-  padding-top:24px;
-  padding-bottom:24px;
-  gap:332px;
-}
+
 .header-address-contakt {
   display:flex;
   align-items:center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-address-tree {
   display:flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
  .header-address{
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block; 
  }
 .header-contakt {
-  
   font-style: normal;
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-contakt:hover,
 .header-contakt:focus {
@@ -201,8 +183,16 @@ img {
   padding-bottom:120px;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-feature .container {
   width: 1128px;
@@ -318,7 +308,6 @@ letter-spacing: 0.32px;
   background-color: #ffffff;
   width:calc((100% - 48px)/3);
   height:420px;
-  border:1px solid #E7E9FC; 
 }
 .card-product {
  padding:32px 16px 32px 16px;
