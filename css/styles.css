@@ -38,13 +38,14 @@ img {
 }
 
 /*---- HEADER ----*/
-
+.navigation{
+  border-bottom:1px solid #e7e9fc;
+}
 .navigation .container{
   width: 1158px;
   height: 72px;
   margin:0 auto;
   padding: 0 15px;
-  border-bottom:1px solid #e7e9fc;
 }
 .header-nav-address{
   display:flex;
