@@ -71,6 +71,8 @@ img {
   height: 21px;
   flex-shrink: 0;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-studio-header {
   color: #2e2f42;
@@ -94,6 +96,8 @@ img {
 }
 .header-link-tree {
   display: flex;
+  padding-top:24px;
+  padding-bottom:24px;
   gap: 40px;
 }
 .header-nav-address {
