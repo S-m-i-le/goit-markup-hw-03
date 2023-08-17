@@ -230,7 +230,7 @@ img {
   padding: 0px;
 }
 .name-profession {
-    margin: 32px 0;
+    padding: 32px 0;
 }
 .name {
   font-size: 20px;
@@ -301,7 +301,7 @@ letter-spacing: 0.32px;
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display:block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-studio {
