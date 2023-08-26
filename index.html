@@ -22,46 +22,43 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
     <!--  HEADER -->
 
     <header class="navigation">
       <div class="container header-nav-address">
-        
-          <nav class="header-nav">
-            <a class="header-logo" href="./index.html"
-              >Web<span class="logo-studio-header">Studio</span></a
-            >
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html"
+            >Web<span class="logo-studio-header">Studio</span></a
+          >
 
-            <ul class="header-link-tree">
-              <li class="links" >
-                <a class="header-link"  href="./index.html" target="_blank"
-                  >Studio</a
-                >
-              </li>
-              <li class="links">
-                <a class="header-link" href="" target="_blank">Portfolio</a>
-              </li>
-              <li class="links">
-                <a class="header-link" href="" target="_blank">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="header-address-contakt">
-            <ul class="header-address-tree">
-              <li class="header-address" >
-                <a class="header-contakt" href="mailto:info@devstudio.com"
-                  >info@devstudio.com
-                </a>
-              </li>
-              <li class="header-address">
-                <a class="header-contakt" href="tel:+110001111111"
-                  >+11 (000) 111-11-11
-                </a>
-              </li>
-            </ul>
-          </address>
-        
+          <ul class="header-link-tree">
+            <li class="links">
+              <a class="header-link" href="./index.html" target="_blank"
+                >Studio</a
+              >
+            </li>
+            <li class="links">
+              <a class="header-link" href="" target="_blank">Portfolio</a>
+            </li>
+            <li class="links">
+              <a class="header-link" href="" target="_blank">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address-contakt">
+          <ul class="header-address-tree">
+            <li class="header-address">
+              <a class="header-contakt" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="header-address">
+              <a class="header-contakt" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
@@ -79,13 +76,17 @@
       <section class="feature section">
         <div class="container">
           <h2 class="visually-hidden">feature</h2>
-         
+
           <ul class="feature-tree">
             <li class="feature-cards">
-              <svg class="icon">
-                <use href=".images/hw-4/icons-hw-4/symbol-defs.svg #icon-antenna-1"></use>
-                </use>
-              </svg>
+              <div class="fon-icon">
+                <svg class="icon" width="64px" height="64px">
+                  <use
+                    href="./images/hw-4/icons-hw-4/icons.svg#icon-antenna"
+                  ></use>
+                </svg>
+              </div>
+
               <h3 class="tittls-feature">Strategy</h3>
               <p class="features-team">
                 Our goal is to identify the business problem to walk away with
@@ -93,10 +94,14 @@
               </p>
             </li>
             <li class="feature-cards">
-              <svg class="icon">
-                <use href=".images/hw-4/icons-hw-4/symbol-defs.svg #icon-antenna-1">
-                </use>
-              </svg>
+              <div class="fon-icon">
+                <svg class="icon" width="64px" height="64px">
+                  <use
+                    href="./images/hw-4/icons-hw-4/icons.svg#icon-clock"
+                  ></use>
+                </svg>
+              </div>
+
               <h3 class="tittls-feature">Punctuality</h3>
               <p class="features-team">
                 Bring the key message to the brand's audience for the best price
@@ -104,10 +109,14 @@
               </p>
             </li>
             <li class="feature-cards">
-              <svg class="icon">
-                <use href="..images/hw-4/icons-hw-4/symbol-defs.svg #icon-antenna-1">
-                </use>
-              </svg>
+              <div class="fon-icon">
+                <svg class="icon" width="64px" height="64px">
+                  <use
+                    href="./images/hw-4/icons-hw-4/icons.svg#icon-diagram"
+                  ></use>
+                </svg>
+              </div>
+
               <h3 class="tittls-feature">Diligence</h3>
               <p class="features-team">
                 Research and confirm brands that present the strongest digital
@@ -115,10 +124,14 @@
               </p>
             </li>
             <li class="feature-cards">
-              <svg class="icon">
-                <use href=".images/hw-4/icons-hw-4/symbol-defs.svg #icon-antenna-1">
-                </use>
-              </svg>
+              <div class="fon-icon">
+                <svg class="icon" width="64px" height="64px">
+                  <use
+                    href="./images/hw-4/icons-hw-4/icons.svg#icon-astronaut"
+                  ></use>
+                </svg>
+              </div>
+
               <h3 class="tittls-feature">Technologies</h3>
               <p class="features-team">
                 Design practice focused on digital experiences. We bring forth a
@@ -256,7 +269,7 @@
             <li class="portfolio-card">
               <img
                 src="./images/hw-2/online_courses-min.jpg"
-                alt="Online Courses" 
+                alt="Online Courses"
                 width="360"
                 height="300"
               />
