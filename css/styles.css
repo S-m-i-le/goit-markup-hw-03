@@ -89,6 +89,16 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.header-link::after {
+  display: block;
+  height: 4px;
+  background-color: #fff;
+  content: '';
+}
+.header-link:hover::after,
+.header-link:focus::after{
+  background-color: #404bbf;
+}
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
@@ -130,6 +140,7 @@ img {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440рх;
 }
 .hero-tittle {
   color: #ffffff;
@@ -144,12 +155,12 @@ img {
   max-width: 496px;
 }
 .hero-button {
+  display: block;
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  display: block;
   min-width: 169px;
   margin: 48px auto 0 auto;
   padding: 16px 32px;
@@ -189,15 +200,15 @@ img {
   display: block;
   width: calc((100% - 72px) / 4);
 }
-.icon{
+.icon {
   display: flex;
-  margin:24px auto;
-  }
-  .fon-icon{
-    display:flex;
-    border-radius: 4px;
-border: 1px solid  #8E8F99;
-background:#F4F4FD;
+  margin: 24px auto;
+}
+.fon-icon {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
   flex-shrink: 0;
 }
 
@@ -264,8 +275,53 @@ background:#F4F4FD;
   color: #434455;
   letter-spacing: 0.32px;
   text-align: center;
+  margin-bottom: 8px;
 }
-
+.soc{
+  position: relative;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc((100% - 72px) / 4);
+  gap:24px;
+  justify-content: space-around;
+ 
+}
+.icon-soc-fon{
+  fill:#4d5ae5
+}
+.icon-soc-inst{
+  position: absolute;
+  z-index:2;
+  top:12;
+  left: -80px;
+  fill:#ffffff;
+  
+}
+.icon-soc-twiter{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  left: -15px;
+  fill:#ffffff;
+  
+}
+.icon-soc-facebook{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  right:-15px;
+  fill:#ffffff;
+  
+}
+.icon-soc-linkedin{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  right:-80px;
+  fill:#fff;
+  
+}
 /*-- 4 PORTFOLIO ---*/
 
 /*---------------------------------------*/
@@ -310,6 +366,16 @@ background:#F4F4FD;
   color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
+  align-items: baseline;
+}
+.footer-page .container{
+  display: inline-block;
+ align-items: baseline;
+}
+
+.footer-text{
+  display: inline-block;
+  max-width: 264px;
 }
 .footer-logo {
   font-weight: 700;
@@ -319,15 +385,66 @@ background:#F4F4FD;
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display: inline-block;
-  margin-bottom: 16px;
+ 
 }
 .logo-studio {
   color: #f4f4fd;
 }
 .footer-p {
+  margin-top: 16px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  max-width: 264px;
+}
+.social-media{
+  display:inline-block;
+  margin-left: 120px;
+
+} 
+.social-media-tittle{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.013em;
+margin-bottom: 16px;
+}
+.social-media.soc{ 
+  position: relative;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc((100% - 48px) / 4);
+  gap:16px;
+  justify-content: space-around;
+}
+.social-media .icon-soc-inst{
+  position: absolute;
+  z-index:2;
+  top:12;
+  left: -84px;
+  fill:#ffffff;
+  
+}
+.social-media .icon-soc-twiter{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  left:-20px;
+  fill:#ffffff;
+  
+}
+.social-media .icon-soc-facebook{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  right:-20px;
+  fill:#ffffff;
+  
+}
+.social-media .icon-soc-linkedin{
+  position: absolute;
+  z-index:2;
+  top:12px;
+  right:-84px;
+  fill:#fff;
+  
 }
